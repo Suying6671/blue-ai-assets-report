@@ -20,6 +20,12 @@ Slides version:
 https://suying6671.github.io/blue-ai-assets-report/slides-cobalt-grid.html
 ```
 
+Latest standalone HTML:
+
+```text
+https://suying6671.github.io/blue-ai-assets-report/蓝标AI能力资产化方案_万舒畅.html
+```
+
 If GitHub Pages is not enabled yet, open the repository settings and choose:
 
 ```text
