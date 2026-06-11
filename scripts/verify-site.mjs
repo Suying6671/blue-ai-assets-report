@@ -7,6 +7,7 @@ const requiredFiles = [
   "index.html",
   "styles.css",
   "app.js",
+  "slides-cobalt-grid.html",
   ".nojekyll",
   ".gitignore",
   sourceMarkdown,
@@ -54,6 +55,24 @@ if (existsSync(".gitignore")) {
   for (const file of ["index.html", "styles.css", "app.js", sourceMarkdown]) {
     if (!gitignore.includes(`!${file}`)) {
       failures.push(`.gitignore must explicitly allow ${file}`);
+    }
+  }
+  if (!gitignore.includes("!slides-cobalt-grid.html")) {
+    failures.push(".gitignore must explicitly allow slides-cobalt-grid.html");
+  }
+}
+
+if (existsSync("slides-cobalt-grid.html")) {
+  const slides = readFileSync("slides-cobalt-grid.html", "utf8");
+  for (const text of [
+    "Cobalt Grid",
+    "deck-stage",
+    "width: 1920px",
+    "height: 1080px",
+    "class SlidePresentation",
+  ]) {
+    if (!slides.includes(text)) {
+      failures.push(`slides-cobalt-grid.html must include ${text}`);
     }
   }
 }

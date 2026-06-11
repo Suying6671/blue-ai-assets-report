@@ -14,6 +14,12 @@ The page renders this Markdown file:
 
 To publish updates, edit the Markdown file, commit, and push to `main`.
 
+Slides version:
+
+```text
+https://suying6671.github.io/blue-ai-assets-report/slides-cobalt-grid.html
+```
+
 If GitHub Pages is not enabled yet, open the repository settings and choose:
 
 ```text
