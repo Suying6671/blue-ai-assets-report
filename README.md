@@ -1,29 +1,15 @@
 # blue-ai-assets-report
 
-GitHub Pages site for the report:
+GitHub Pages site for the latest report:
 
 ```text
 https://suying6671.github.io/blue-ai-assets-report/
 ```
 
-The page renders this Markdown file:
+The root page currently serves:
 
 ```text
-3【汇报版】从个人经验到组织资产_蓝标AI能力资产化方案_副本.md
-```
-
-To publish updates, edit the Markdown file, commit, and push to `main`.
-
-Slides version:
-
-```text
-https://suying6671.github.io/blue-ai-assets-report/slides-cobalt-grid.html
-```
-
-Latest standalone HTML:
-
-```text
-https://suying6671.github.io/blue-ai-assets-report/蓝标AI能力资产化方案_万舒畅.html
+蓝标AI能力资产化方案_万舒畅.html
 ```
 
 If GitHub Pages is not enabled yet, open the repository settings and choose:
